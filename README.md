@@ -1,4 +1,2 @@
-# FF_Brotli
-
-## DESCRIPTION
-This doesn't include any function at all. We use this to satisfy external dependency requirements of other plugins. 
+## FF_Brotli
+This plugin doesn't have any contents or functions. We use it to satisfy dependency requirements for other libraries.
