@@ -1,26 +1,14 @@
 // Some copyright should be here...
 
+using System;
+using System.IO;
 using UnrealBuildTool;
 
 public class FF_Brotli : ModuleRules
 {
 	public FF_Brotli(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		
-		PublicIncludePaths.AddRange(
-			new string[] {
-				// ... add public include paths required here ...
-			}
-			);
-				
-		
-		PrivateIncludePaths.AddRange(
-			new string[] {
-				// ... add other private include paths required here ...
-			}
-			);
-			
+		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;	
 		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
@@ -30,7 +18,6 @@ public class FF_Brotli : ModuleRules
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
-			
 		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
@@ -42,8 +29,7 @@ public class FF_Brotli : ModuleRules
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
-		
-		
+
 		DynamicallyLoadedModuleNames.AddRange(
 			new string[]
 			{
